@@ -1,5 +1,5 @@
 # National Gallery Art Twitter Bot
-This bot generates daily tweets at [@natgallerysgbot](https://twitter.com/natgallerysgbot), detailing artworks from the National Gallery Singapore's [collection](https://collections.nationalgallery.sg/#/).
+This bot generates daily tweets at [@natgallerysgbot](https://twitter.com/natgallerysgbot), detailing artworks from the National Gallery Singapore's (beautiful place) [collection](https://collections.nationalgallery.sg/#/).
 
 ## Built with
 - [Tweepy](https://www.tweepy.org/) library
