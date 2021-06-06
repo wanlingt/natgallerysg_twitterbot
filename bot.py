@@ -18,6 +18,10 @@ def twitter_api():
     #     print("Error during authentication")
 
 def item_info():
+    """
+    Retrieves the relevant artwork details (Title, Artist, Date, Prod ID, URL, image URL)
+    Returns the details as a dictionary
+    """
     img_details = get_art_item()
     title = img_details["SourceTitle"]
     artist = img_details["Artist"]
@@ -31,6 +35,9 @@ def item_info():
     return item_info
 
 def tweet_image(url, message):
+    """
+    Updates twitter status with an image from a given url and a message string
+    """
     api = twitter_api()
     filename = '/tmp/temp.jpg'
     request = requests.get(url, stream=True)
