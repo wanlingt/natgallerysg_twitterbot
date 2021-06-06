@@ -2,7 +2,7 @@ import tweepy
 import requests
 import os
 from image import get_art_item
-from local_settings import *
+# from local_settings import *
 
 
 def twitter_api():
