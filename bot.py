@@ -29,7 +29,6 @@ def item_info():
     item_info = {"message": details_str, 
                 "img_url": img_url}
     return item_info
-    # api.update_status(details_str)
 
 def tweet_image(url, message):
     api = twitter_api()
@@ -44,7 +43,8 @@ def tweet_image(url, message):
     else:
         print("Unable to download image")
 
-item = item_info()
-tweet_image(item["img_url"], item["message"])
+if __name__ == "__main__":
+    item = item_info()
+    tweet_image(item["img_url"], item["message"])
 
 
