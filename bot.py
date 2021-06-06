@@ -28,7 +28,7 @@ def item_info():
     date = img_details["ProductDate"]
     prod_id = img_details["ProductId"]
     url = f'https://collections.nationalgallery.sg/#/details/Home/{prod_id}'
-    details_str = f'{artist}, {title}. {date}. {url}'
+    details_str = f'{artist} - {title}. {date}. {url}'
     img_url = f'https://production-ngssource.s3-ap-southeast-1.amazonaws.com/asset/Artwork/{img_details["FilePath"]}'
     item_info = {"message": details_str, 
                 "img_url": img_url}
