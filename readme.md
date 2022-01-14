@@ -7,7 +7,7 @@ This bot generates daily tweets at [@natgallerysgbot](https://twitter.com/natgal
 
 ## Building locally
 1. Install Python 3.6 or newer
-2. git clone https://github.com/wanlingt/natgallerysg_twitterbot.git or download the source and extract
+2. Clone the repo
 3. cd natgallerysg_twitterbot
 4. Create a virtual environment (optional)
 5. pip install -r requirements.txt
