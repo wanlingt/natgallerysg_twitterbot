@@ -8,12 +8,12 @@ This bot generates daily tweets at [@natgallerysgbot](https://twitter.com/natgal
 ## Building locally
 1. Install Python 3.6 or newer
 2. Clone the repo
-3. cd natgallerysg_twitterbot
+3. `cd natgallerysg_twitterbot`
 4. Create a virtual environment (optional)
-5. pip install -r requirements.txt
+5. Run `pip install -r requirements.txt`
 6. Create a new twitter account
-7. Obtain developer keys and update local_settings.py
-8. python bot.py
+7. Obtain developer keys and update `local_settings.py`
+8. Run `python bot.py`
 
 This will post a tweet to your Twitter account.
 
